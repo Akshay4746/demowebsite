@@ -1,0 +1,192 @@
+body{
+    padding:0;
+    margin:0;
+}
+/* common styling */
+h1
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3.5rem;
+  line-height:1.5;
+  color:white;
+}
+h2{
+   color:white;
+   font-family: 'Montserrat', sans-serif;
+   font-size:3rem;
+   line-height:1.5;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
+}
+P{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:bold;
+}
+/* navbar styling */
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand
+{
+  font-size:3.25rem;
+  font-weight:bold;
+}
+.nav-item
+{
+  padding:0 18px;
+}
+.nav-link
+{
+  font-size:1.2rem;
+}
+/* header container styling */
+#title
+{
+  background-color:#ff4c68;
+  margin-bottom:-2%;
+}
+.container-fluid
+{
+  padding:3% 6%;
+}
+.title-heading
+{
+  
+}
+
+.download-btn
+{
+  margin:54px 10px 74px;
+}
+
+#header-img
+{
+  transform:rotate(25deg);
+  width:60%;
+  position:absolute;
+  right:30%;
+}
+
+
+
+/* Section 2 */
+#features
+{
+  padding:7% 15%;
+  background-color:white;
+  position:relative;
+
+}
+.features-row
+{
+  text-align:center;
+  padding-top:50px;
+}
+.features-row svg{
+  margin-bottom:20px; 
+  filter:invert(50%); 
+}
+.features-row svg:hover{
+  filter:invert(0%);
+
+}
+.feature-row p{
+  color:rgb(105, 105, 105);
+}
+
+/* section3 and section4 */
+
+#testimonials
+{
+  background-color:rgb(247, 100, 74);
+  text-align:center;
+  
+}
+.testimonials-img
+{
+  margin:20px 38px 50px;
+  border-radius:100%;
+  height:10rem;
+}
+.carousel-item
+{
+  padding:7% 15%;
+}
+#press
+{
+  background-color:rgb(247, 100, 74);
+  text-align:center;
+  padding:0% 10% 7% 10%;
+} 
+.press-img
+{
+  height:3rem;
+  margin:30px 30px;
+}
+
+
+/* Section4 */
+#pricing
+{
+  padding:7% 15%;
+  text-align:center;
+}
+.pricing-header
+{
+  color:black;
+}
+
+/* section5  */
+
+#cta
+{
+  background-color:#ff4c68;
+  text-align:center;
+  color:white;
+  padding: 7% 20%;
+  
+}
+#cta h3{
+   font-size:3rem;
+   margin-bottom:5%;
+   line-height:1.5;
+}
+.download2_btn
+{
+  margin-right:1.3rem;
+}
+
+/* footer */
+
+#footer
+{
+  text-align:center;
+  background-color:#fff;
+  padding:7% 15%;
+}
+#website
+{
+  text-decoration:none;
+  color:skyblue;
+}
+#website:hover{
+  text-decoration:none;
+  color:brown;
+}
+
+/* media query for header/title section */
+@media (max-width:990px)
+{
+  #title
+  {
+    text-align:center;
+  }
+  #header-img
+  {
+    position:static;
+    transform:rotate(0);
+  }
+}
